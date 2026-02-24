@@ -2,13 +2,12 @@ export default function Hero() {
   return (
     <section className="border-b border-slate-200 bg-white">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
-        <p className="text-sm font-medium text-slate-500">Revenue Architecture Group</p>
+        <p className="text-sm font-medium text-slate-500">Arquitectura y Dirección Tecnológica B2B.</p>
         <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight text-[#0E2A47] md:text-5xl">
-          Arquitectura y Direccion Tecnologica B2B para elegir y coordinar al partner tecnologico adecuado.
+          Encuentra el partner tecnológico correcto sin perder meses.
         </h1>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-600 md:text-lg">
-          Intermediamos de forma estrategica en proyectos tecnologicos complejos:
-          seleccion de partner, supervision de hitos y direccion de decisiones clave, sin ejecucion directa.
+          Definimos el alcance de tu proyecto, seleccionamos especialistas verificados y te presentamos una propuesta cerrada en 72 horas. Sin compromiso · Proceso guiado · Selección objetiva
         </p>
         <a
           href="#contacto"

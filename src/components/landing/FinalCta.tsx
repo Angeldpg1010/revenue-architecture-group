@@ -3,10 +3,10 @@ export default function FinalCta() {
     <section id="contacto" className="bg-[#0E2A47]">
       <div className="mx-auto max-w-6xl px-6 py-20 text-white md:py-24">
         <h2 className="max-w-3xl text-3xl font-semibold tracking-tight md:text-4xl">
-          Alineemos tu proyecto antes de comprometer presupuesto y proveedor.
+          Si vas a invertir en tecnología, hazlo con criterio.
         </h2>
         <p className="mt-5 max-w-2xl text-slate-200">
-          Texto provisional: agenda una llamada breve para evaluar encaje y siguientes pasos.
+          Te ayudamos a definir el camino correcto antes de elegir proveedor.
         </p>
         <a
           href="#contacto"

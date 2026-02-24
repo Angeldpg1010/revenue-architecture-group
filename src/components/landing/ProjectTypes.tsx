@@ -1,17 +1,18 @@
 const projectTypes = [
-  "ERP y sistemas internos",
-  "Automatizacion de procesos",
-  "Integraciones entre plataformas",
-  "Plataformas B2B a medida",
+  "CRM y automatización comercial.",
+  "Integraciones entre sistemas (ERP, facturación, APIs).",
+  "Dashboards y reporting ejecutivo.",
+  "Desarrollo a medida (portales, backoffice).",
+  "Aplicaciones de IA cuando el caso lo justifica.",
 ];
 
 export default function ProjectTypes() {
   return (
     <section className="border-b border-slate-200 bg-white">
       <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-        <h2 className="text-2xl font-semibold text-[#0E2A47] md:text-3xl">Tipos de proyecto</h2>
+        <h2 className="text-2xl font-semibold text-[#0E2A47] md:text-3xl">Proyectos que estructuramos y canalizamos</h2>
         <p className="mt-5 max-w-3xl text-base leading-relaxed text-slate-600">
-          Texto provisional: cubrimos escenarios habituales de transformacion digital B2B.
+          Priorizamos iniciativas con impacto real y criterio de negocio desde el inicio.
         </p>
         <ul className="mt-8 grid gap-3 sm:grid-cols-2" role="list">
           {projectTypes.map((item) => (
