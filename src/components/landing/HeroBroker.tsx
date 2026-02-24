@@ -2,7 +2,7 @@ export default function HeroBroker() {
   return (
     <section className="border-b border-slate-200 bg-white">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
-        <p className="text-sm font-medium text-slate-500">Broker Tecnologico B2B</p>
+        <p className="text-sm font-medium text-slate-500">Revenue Architecture Group</p>
         <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight text-[#0E2A47] md:text-5xl">
           Direccion estrategica para elegir y coordinar al partner tecnologico adecuado.
         </h1>
@@ -19,3 +19,4 @@ export default function HeroBroker() {
     </section>
   );
 }
+

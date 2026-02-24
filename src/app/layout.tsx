@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Broker Tecnológico B2B | Título Provisional",
+  title: "Revenue Architecture Group | Título Provisional",
   description:
     "Descripción provisional: dirección estratégica para proyectos tecnológicos B2B.",
   openGraph: {
-    title: "Broker Tecnológico B2B | Título Provisional",
+    title: "Revenue Architecture Group | Título Provisional",
     description:
       "Descripción provisional: dirección estratégica para proyectos tecnológicos B2B.",
     type: "website",
@@ -24,3 +24,4 @@ export default function RootLayout({
     </html>
   );
 }
+
