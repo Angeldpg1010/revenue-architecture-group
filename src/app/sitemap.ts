@@ -1,11 +1,11 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://domiarevenuesystems.com";
-
 export default function sitemap(): MetadataRoute.Sitemap {
+  const siteUrl = "https://revenuearchitecturegroup.com";
+
   return [
     {
-      url: baseUrl,
+      url: siteUrl,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,

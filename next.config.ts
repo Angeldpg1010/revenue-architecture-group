@@ -14,10 +14,15 @@ const securityHeaders = [
     value: "strict-origin-when-cross-origin",
   },
   {
+    key: "Strict-Transport-Security",
+    value: "max-age=63072000; includeSubDomains; preload",
+  },
+  {
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
       "base-uri 'self'",
+      "object-src 'none'",
       "form-action 'self'",
       "frame-ancestors 'none'",
       "img-src 'self' data: blob: https:",

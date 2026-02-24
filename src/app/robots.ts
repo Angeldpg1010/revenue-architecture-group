@@ -1,13 +1,16 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://domiarevenuesystems.com";
-
 export default function robots(): MetadataRoute.Robots {
+  const siteUrl = "https://revenuearchitecturegroup.com";
+
   return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
-    },
-    sitemap: `${baseUrl}/sitemap.xml`,
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+    ],
+    sitemap: `${siteUrl}/sitemap.xml`,
+    host: siteUrl,
   };
 }
