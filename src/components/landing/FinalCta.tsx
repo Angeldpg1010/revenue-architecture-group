@@ -3,10 +3,10 @@ export default function FinalCta() {
     <section id="contacto" className="bg-[#0E2A47]">
       <div className="mx-auto max-w-6xl px-6 py-20 text-white md:py-24">
         <h2 className="max-w-3xl text-3xl font-semibold tracking-tight md:text-4xl">
-          Si vas a invertir en tecnología, hazlo con criterio.
+          Define el alcance. Elige bien. Controla la ejecución.
         </h2>
         <p className="mt-5 max-w-2xl text-slate-200">
-          Te ayudamos a definir el camino correcto antes de elegir proveedor.
+          15 minutos para alinear objetivo y próximos pasos.
         </p>
         <a
           href="#contacto"
@@ -14,6 +14,9 @@ export default function FinalCta() {
         >
           Reservar llamada (15 min)
         </a>
+        <p className="mt-5 max-w-2xl text-slate-200">
+          Confidencial. No compartimos tu información sin tu aprobación. Si encaja, te presentamos plan y partner en 72h.
+        </p>
       </div>
     </section>
   );

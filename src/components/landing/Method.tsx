@@ -1,8 +1,8 @@
 const steps = [
-  "Llamada 15 min - Entendemos tu objetivo y contexto.",
-  "Brief estratégico - Definimos alcance, requisitos y criterios de selección.",
-  "Propuesta en 72h - Partner recomendado + plan + presupuesto estimado.",
-  "Seguimiento de hitos - Supervisión estratégica sin ejecución directa.",
+  "Llamada 15 min - Entendemos tu objetivo y contexto. Sin preparación previa.",
+  "Brief estratégico - Definimos alcance, requisitos y criterios de selección. Evitamos alcance ambiguo y sorpresas.",
+  "Propuesta en 72h - Partner recomendado + plan + presupuesto estimado. 2-3 opciones cuando aporta valor, o una recomendación directa si es obvio.",
+  "Seguimiento de hitos - Supervisión estratégica sin ejecución directa. Supervisión por hitos para asegurar cumplimiento.",
 ];
 
 export default function Method() {

@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <section className="border-b border-slate-200 bg-white">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
-        <p className="text-sm font-medium text-slate-500">Arquitectura y Dirección Tecnológica B2B.</p>
+        <p className="text-sm font-medium text-slate-500">Proceso estructurado · Partners verificados · Comparativa objetiva</p>
         <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight text-[#0E2A47] md:text-5xl">
-          Encuentra el partner tecnológico correcto sin perder meses.
+          Evita elegir mal proveedor tecnológico y gana control desde el primer día.
         </h1>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-600 md:text-lg">
-          Definimos el alcance de tu proyecto, seleccionamos especialistas verificados y te presentamos una propuesta cerrada en 72 horas. Sin compromiso · Proceso guiado · Selección objetiva
+          Definimos alcance y criterios de decisión, seleccionamos especialistas verificados y te presentamos una propuesta cerrada en 72 horas para avanzar con criterio.
         </p>
         <a
           href="#contacto"
@@ -15,6 +15,9 @@ export default function Hero() {
         >
           Reservar llamada (15 min)
         </a>
+        <p className="mt-3 max-w-2xl text-sm text-slate-600">
+          Sin compromiso. Te diremos si merece la pena avanzar y con qué enfoque.
+        </p>
       </div>
     </section>
   );
